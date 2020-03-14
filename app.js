@@ -17,7 +17,7 @@ const addTextWatermarkToImage = async function(inputFile, outputFile, text) {
   } catch (error) {
     console.log('Something went wrong... Try again!'); 
   } 
-  console.log('\nJob done!\n');
+  console.log('\nJob done! I will find your watermarked files in the output_files folder\n');
   startApp();
 };
 
@@ -36,7 +36,7 @@ const addImageWatermarkToImage = async function(inputFile, outputFile, watermark
   } catch (error) {
     console.log('Something went wrong... Try again!'); 
   }
-  console.log('\nJob done!\n');
+  console.log('\nJob done! I will find your watermarked files in the output_files folder\n');
   startApp();
 };
 
